@@ -2,6 +2,8 @@
 .idea
 .vscode
 .git
+.gitignore
+.gitattributes
 *.ai
 *.log
 *.pdf
@@ -9,6 +11,6 @@
 *.sublime*
 node_modules/
 npm-debug.*
-source/css/*.css
-source/css/*.map
+src/css/*.css
+src/css/*.map
 Thumbs.db
