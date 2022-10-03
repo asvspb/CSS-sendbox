@@ -5,7 +5,7 @@ html
     text-align: center
     font-weight: 900
     background-color: #fff
-    background-image: linear-gradient(30deg, #103b20db, #6df008)
+    background-image: linear-gradient(45deg, #103b20db, #6df008)
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
   h2
@@ -28,7 +28,6 @@ html
 .row-box
   margin-top: .5rem
   display: flex
-  justify-content: space-between
 
 .column
   padding: 15px
@@ -46,10 +45,15 @@ aside.column
 .col-3
   width: 75%
 
-.profile__card
-  background: linear-gradient(30deg, #d8c30adb, #fef1bb)
-  border: 1px solid #2a91e5
-  border-radius: 16px
+.profile
+  &__card
+    background: linear-gradient(30deg, #d8c30adb, #fef1bb)
+    border: 1px solid #2a91e5
+    border-radius: 16px
+  &__qoutation
+    display: block
+    text-align: center
 .article-wrapper
   display: flex
-  justify-content: space-between
+  flex-wrap: wrap
+  gap: 0.5rem
