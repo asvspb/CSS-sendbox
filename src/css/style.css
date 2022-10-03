@@ -85,11 +85,21 @@ h1 {
   align-items: center;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1400px) {
+  .article-wrapper {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1400px) {
   .article-wrapper {
     justify-content: space-between;
   }
   .row-box {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1200px) {
+  .article-wrapper {
     justify-content: space-between;
   }
 }
