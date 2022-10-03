@@ -85,21 +85,6 @@ h1 {
   align-items: center;
 }
 
-.profile {
-  padding: 25px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-.profile__card {
-  display: grid;
-  place-content: center;
-  background-color: #a4a0a0;
-  border: 1px solid black;
-  border-radius: 16px;
-  padding: 5px 15px;
-  max-width: 350px;
-}
 .center-box {
   height: 100vh;
   display: grid;
@@ -112,11 +97,60 @@ h1 {
   min-height: 800px;
 }
 
-.container {
-  min-width: 980px;
+html h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+html h2 {
+  font-size: 1.5rem;
+}
+html p {
+  font-size: 1.125rem;
+}
+
+.nav h1 {
   margin: 0 auto;
 }
 
+.container {
+  margin-top: 1rem;
+  width: 95%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row-box {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  padding: 15px;
+}
 .column p {
   text-align: left;
+}
+
+aside.column {
+  background-color: #626f37;
+  color: hsl(54deg, 100%, 90%);
+}
+
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 75%;
+}
+
+.profile__card {
+  background: linear-gradient(30deg, rgba(216, 195, 10, 0.8588235294), #fef1bb);
+  border: 1px solid #2a91e5;
+  border-radius: 16px;
 }
