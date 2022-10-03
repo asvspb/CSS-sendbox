@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 2rem;
+  text-align: center;
 }
 
 a {
@@ -40,6 +40,9 @@ img {
   width: 100%;
   background-color: green;
 }
+.grid-container__box i {
+  color: FloralWhite;
+}
 
 h1 {
   text-align: center;
@@ -75,4 +78,45 @@ h1 {
   grid-template-columns: 200px auto 100px;
   grid-template-rows: 200px 100px;
   grid-gap: 5px;
+}
+.grid-container__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.profile__card {
+  display: grid;
+  place-content: center;
+  background-color: #a4a0a0;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 5px 15px;
+  max-width: 350px;
+}
+.center-box {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.box-wrapper {
+  background-color: rgba(106, 105, 105, 0.778);
+  width: 1140px;
+  min-height: 800px;
+}
+
+.container {
+  min-width: 980px;
+  margin: 0 auto;
+}
+
+.column p {
+  text-align: left;
 }
