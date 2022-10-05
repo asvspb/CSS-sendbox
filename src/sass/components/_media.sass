@@ -1,15 +1,15 @@
 @media (min-width: 1400px)
   .article-wrapper
     justify-content: space-between
-@media (max-width: 1400px)
-  .article-wrapper
-    justify-content: space-between
-  .row-box
-    justify-content: space-between
 @media (max-width: 1200px)
   .article-wrapper
     justify-content: space-between
 @media (max-width: 992px)
+  .nav
+    &__wrapper
+      flex-direction: column
+  .sub-title
+    text-align: center
   .article-wrapper
     justify-content: space-around
   .profile__card
@@ -25,3 +25,10 @@
     h1
       font-size: 2rem
 @media (max-width: 576px)
+  h1
+    font-size: 2rem
+  .nav__list
+    display: block
+    margin: 0 auto
+    text-align: center
+    padding: .5em
